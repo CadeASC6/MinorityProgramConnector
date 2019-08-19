@@ -13,17 +13,17 @@ let searchInputRef = document.getElementById("searchInput");
 let bodyRef = document.querySelector('body');
 let resultsDivRef = document.getElementsByClassName('results');
 let searchDivRef = document.getElementById('search');
-let footer1Ref = document.getElementById('foot1');
-let footer2Ref = document.getElementById('foot2');
+// let footer1Ref = document.getElementById('foot1');
+// let footer2Ref = document.getElementById('foot2');
 
 let textRef = document.querySelector("p");
 let stockImg = document.querySelector("stockImg img")
 let stockDiv = document.getElementById("stockImg")
-console.log(footer2Ref)
-//footer
-footer2Ref.style.display = 'none';
-footer1Ref.style.display = 'block';
-console.log("help");
+// console.log(footer2Ref)
+// //footer
+// footer2Ref.style.display = 'none';
+// footer1Ref.style.display = 'block';
+// console.log("help");
 
 //assigning variables for the arrays where we access the information from
 let programNamesArray = ['All Star Code', 'CLAE', 'Black Girls Code', 'Discovery Day Camp', 'Black Arts Institute', 'Art History and Curatorial Studies', 'Choplet', 'Girls Who Code', 'Black Girls Sew', 'MITES', 'Kettering University', 'National Society of Black Engineers', 'SMASH Academy', 'iUrbanTeen', 'Mathematics Engineering Science Achievement', 'SAMS', 'Cronkite Institute for HS', 'S.A.F.E Passage Summer Camp', 'Kettering University Academically Interested Minds', 'Camp Nia', 'Heritage Camp'];
