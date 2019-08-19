@@ -104,7 +104,7 @@ for (i = 0; i < programNamesArray.length; i++){
 
   //image adding to big div (left side)
   let img = document.createElement('img');
-  img.src = 'images/' + programPicsArray[i];
+  img.src =  programPicsArray[i];
   img.style.height = ('100px');
   img.classList.add("campLogo");
   bigDiv.appendChild(img);
