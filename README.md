@@ -1,1 +1,1 @@
-# MinorityProgramConnector
+# MPC_DemoDayProject

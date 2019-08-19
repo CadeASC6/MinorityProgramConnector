@@ -1,0 +1,234 @@
+
+.homeBar{
+    display:flex;
+    height: 36px;
+    width: 97vw;
+    border-top: 3px solid #c60021;
+    border-bottom: 3px solid #c60021;
+    /* moves everything to the left side of the screen */
+    /* justify-content: flex-end; */
+    /* puts space in between each word */
+    justify-content: space-evenly;
+    font-weight: bold;
+    padding-top: 10px;
+    background-color: #E3E3E3;
+    opacity: 0.5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+   
+    /* padding-left:-30px; */
+  }
+  #logo{
+    color: #c60021;
+  }
+  #stockImg{
+    display:flex;
+    height: 350px;
+    width: 97vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 3px solid red; */
+    /* padding-top: 250px; */
+  } 
+  #stockImg img{
+    height: 350px;
+    width: 97vw;
+    opacity: 0.6;
+  }
+  #missionState{
+    text-align:center;
+  }
+  #stockImg img:hover{
+   -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+    transition: 0.2s;
+ }
+  #stockText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: rgb(198, 0, 33,0.6);
+    pointer-events: none;
+  }
+  #home{
+    padding-left: 500px;
+    opacity: 1;
+    text-decoration: none;
+  }
+  #missionState{
+    justify-content: center;
+    width:550px;
+    height:150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F6F6F8;
+  }
+  #missionBox{
+    display: flex;
+    /* flex-direction:column; */
+    justify-content: center;
+  
+  }
+  
+  #aboutUsBox {
+    display:flex;
+    justify-content:center;
+    
+  }
+  #aboutUsText {
+    display:flex;
+    background-color: #F6F6F8;
+    align-items: center;
+    flex-direction: column;
+    height: 650px;
+    width: 75vw;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 10px 10px 5px grey; */
+  }
+  
+  #groupPic{
+    width:250px;
+    height: 250px;
+  }
+  #aboutUsBox p {
+    font-size:18px;
+    padding: 25px;
+    
+  }
+  footer {
+    background-color: gray;
+    width:97vw;
+    height: 40px;
+    display:none;
+  }
+  #logo {
+    font-size:24px;
+  }
+  .homePage {
+    display:block;
+  }
+  
+  /* Search Page CSS */
+  #search {
+    
+    display:none;
+    background-color:#E3E3E3;
+    width: 97vw;
+    height:97%;
+  }
+
+  
+  /*search box styles*/
+  /* The overall */
+  .results{
+    display:flex;
+    flex-direction: row;
+    padding-left: 50px;
+  }
+  .campLogo {
+    display:flex;
+    border: 3px solid black;
+    height:150px;
+    width:150px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  /* description */
+  .campDescription{
+    display:flex;
+    border:3px solid rgb(0,0,0,0.7);
+    height:180px;
+    width:75vw;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #tag {
+    display:flex;
+    flex-direction: row;
+  }
+  #textBar {
+    display:flex;
+    justify-content:flex-end;
+    padding-right: 70px;
+  }
+  #campLogo img {
+    height: 150px;
+    width: 150px;
+    
+  }
+
+  #stockImg {
+    display: flex;
+    justify-content: center;
+    height: 365px;
+    width: 97vw;
+    background-color: #E3E3E3;
+    /* border: 3px solid rgb(198, 0, 33, 0.5); */
+    /* padding-top: 250px; */
+  }
+  #stockImg img{
+    height: 365px;
+    width: 97vw;
+  }
+
+  a{
+    /* height:60px;*/
+    margin-top:15px;
+    text-align: center;
+    width:110px; 
+    text-decoration:none;
+    color:rgb(198, 0, 33, 0.6);
+    font-weight:bold;
+    border: 2px solid rgb(198, 0, 33, 0.6);
+  }
+  #tag {
+    display:flex;
+    flex-direction:column;
+  }
+  stockImg img{
+    opacity: 0.5;
+  }
+
+.btn{
+  border: 1px solid #c60021;
+  border-radius: 10%;
+  background:none;
+  color:#c60021;
+  /* font-family:"montserrat"; */
+ 
+  cursor:pointer;
+  transition: 0.8s;
+  font-size:20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.homeButton:hover,.searchSwitch:hover{
+  color:#fff
+ 
+}
+
+#groupPic img{
+  /* padding-left: 45px; */
+  width:250px;
+  height:250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+p{
+  border:none;
+}
+
+#aboutUs{
+  font-size:24px;
+  text-align:center;
+}
+h1{
+  margin-top:30px;
+}
